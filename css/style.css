@@ -1591,8 +1591,8 @@ footer {
     gap: 1.5rem;
   }
 
-  .#testimonials .owl-nav{
-    left:2px !important;
-    right:2px !important;
+  #testimonials .owl-nav{
+    left:0px !important;
+    right:0px !important;
   }
 }
