@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://janaktaxiservice.netlify.app/sitemap.xml
