@@ -77,18 +77,11 @@ html {
   font-weight: 700;
 }
 
-.navbar-brand {
-  font-size: 1.8rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--primary-blue), var(--sky-blue));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-family: "Montserrat", sans-serif;
-}
 
-.navbar-brand i {
-  margin-right: 8px;
+.navbar-brand img{
+    height: 61px;
+    width: 81px;
+    object-fit: cover;
 }
 .nav-item {
   align-content: center;
@@ -1314,11 +1307,12 @@ footer {
   margin-bottom: 2rem;
 }
 
-.footer-section h5 {
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: var(--accent-orange);
-  font-size: 1.1rem;
+.footer-section img{
+    height: 100px;
+    width: 140px;
+    object-fit: contain;
+    background-color: white;
+    margin-bottom: 20px;
 }
 
 .footer-section ul {
@@ -1363,7 +1357,7 @@ footer {
 
 .social-icons a:hover {
   transform: translateY(-5px);
-  background: var(--sky-blue);
+  background: var(--light-gray);
 }
 
 .footer-bottom {
@@ -1402,7 +1396,8 @@ footer {
 
 .back-to-top:hover {
   transform: translateY(-5px);
-  background: var(--sky-blue);
+  background: var(--light-gray);
+  color: var(--primary-dark);
 }
 
 .back-to-top.show {
