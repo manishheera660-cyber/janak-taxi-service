@@ -193,6 +193,7 @@ html {
   border-radius: 50px;
   cursor: pointer;
   transition: var(--transition);
+  text-decoration: none;
 }
 
 .btn-primary-hero:hover {
